@@ -5,7 +5,7 @@ metadata:
   name: aws-ebs-csi-driver
   namespace: argocd
   labels:
-    kn: "knite-1"
+    kn: "kafka-cluster"
   annotations:
     argocd.argoproj.io/sync-wave: "1"    
   finalizers:
