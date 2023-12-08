@@ -17,7 +17,7 @@ spec:
   project: default
   source:
     path: ./charts/velero
-    repoURL: https://vmware-tanzu.github.io/helm-charts.git
+    repoURL: https://github.com/vmware-tanzu/helm-charts.git
     targetRevision: HEAD
     helm:
       valueFiles:
