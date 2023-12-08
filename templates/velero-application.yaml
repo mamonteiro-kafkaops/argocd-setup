@@ -16,8 +16,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./charts/velero
-    repoURL: https://github.com/vmware-tanzu/helm-charts.git
+    path: .
+    repoURL: https://github.com/vmware-tanzu/helm-charts
     targetRevision: HEAD
     helm:
       valueFiles:
